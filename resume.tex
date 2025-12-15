@@ -1,6 +1,8 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
-\moderncvstyle{banking}
+\moderncvstyle{classic}
 \moderncvcolor{black}
+% Zera a largura da coluna de datas lateral, permitindo que o texto use a largura total
+\setlength{\hintscolumnwidth}{20pt}
 \nopagenumbers{}
 \usepackage{ragged2e}
 \usepackage[scale=0.915]{geometry}
@@ -10,7 +12,25 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amssymb}
 \usepackage{pifont}
+\usepackage[T1]{fontenc}
+
 \name{Pedro}{Azevedo}
+\name{
+    \fontsize{30}{33}\selectfont\mdseries Pedro
+    }{
+    \fontsize{30}{33}\selectfont\mdseries Azevedo %\vspace{-3mm}
+}
+\title{Software Developer - Mechatronics Engineer}                               
+% \born{15 September, 2001}                                 
+% \address{street and number}{postcode city}{country}
+\phone[mobile]{+55~(22)~99702-3461}
+\email{pcarriello@gmail.com}
+\social[linkedin]{pecazeco}
+\social[github]{pecazeco}
+
+\photo[45pt][1pt]{foto}     
+% \homepage{www.johndoe.com}                         
+
 \newcommand*{\customcventry}[7][.13em]{
 \begin{tabular}{@{}l}
 {\bfseries #4} \
@@ -27,23 +47,14 @@
 \small#7%
 \end{minipage}}\fi%
 \par\addvspace{#1}}
+
 \begin{document}
 \makecvtitle
-\vspace*{-16mm}
-\begin{center}
-    \textbf{ Mechatronics Engineering Student }
-\end{center}
-\begin{center}
-\begin{tabular}{ c c c }
-% \faMobile\enspace (22) 99702-3461 \enspace  & \faHome\enspace pcarriello@gmail.com \\
-\faLinkedin\enspace \href{https://www.linkedin.com/in/pecazeco/}{in/pecazeco} & \enspace
-\faGithub\enspace \href{https://github.com/pecazeco}{github.com/pecazeco} & \enspace 
-\end{tabular}
-\end{center}
+\vspace*{-5mm}
 
 \section{Education}
 
-\customcventry{2020 - Current}{}{Mechatronics Engineering}{University of São Paulo}{}{
+\customcventry{2020 - 2025}{}{Mechatronics Engineering}{University of São Paulo}{}{
 {\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
     %\item Ser estudante de engenharia mecatrônica é cursar matérias de mecânica, computação, elétrica e eletrônica, o que me confere um grande caráter multidisciplinar.
     \item[\ding{226}] Adaptivity, Multidisciplinary, Modeling, Computation,  Problem Solving, Python
