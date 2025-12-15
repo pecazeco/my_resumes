@@ -1,0 +1,62 @@
+Desenvolvi uma visão analítica de dados cursando disciplinas voltadas à ciência de dados, realizando uma Iniciação Científica em machine learning e um estágio no qual tive muito contato com BigQuery SQL, governança de dados, pipeline e Python voltado para aplicação de API de GenAI. Além disso, já fiz cursos de PostgreSQL, PowerBI e Python. 
+
+Me formo em Engenharia Mecatrônica na USP de São Carlos nesse ano, onde já ocupei um cargo de liderança em uma equipe extracurricular e cursei o certificado de Estudos Especiais em Computação no ICMC. 
+
+
+Itau
+
+Desenvolvi uma visão analítica de dados cursando disciplinas voltadas à ciência de dados, realizando uma Iniciação Científica e um estágio na área. 
+
+No estágio, apliquei conceitos de análise e regras de negócio na organização e visualização de dados de um grande banco digital.
+
+Me formo em Engenharia Mecatrônica na USP de São Carlos nesse ano, onde já ocupei um cargo de liderança em uma equipe extracurricular e cursei o certificado de Estudos Especiais em Computação no ICMC. 
+
+
+Stone
+
+Estando quase formado em Engenharia Mecatrônica pela USP, tendo feito uma IC em Redes Neurais e um estágio em Ciência de Dados, o que mais me orgulha é ter ocupado um cargo de diretoria em uma equipe extracurricular na faculdade.
+
+Essa equipe projeta e manufatura carros de Formula SAE elétrico e a minha liderança se deu na volta pós-pandemia, onde tivemos que enfrentar a perda de conhecimento de manufatura que se deu durante a pandemia. Nesse desafio, apesar de não ter aprendido tantos aspectos técnicos que utilizo hoje na minha área, obtive aprendizados ainda mais valiosos: liderança, trabalho em equipe, documentação, comunicação não agressiva, resiliência, entre outras habilidades, e foi muito gratificante ver o crescimento da equipe durante a reestruturação desse tempo.
+
+Nestle
+
+Realizei um estágio no qual tive muito contato com BigQuery SQL, governança de dados, pipeline e Python voltado para aplicação de API de GenAI. Além disso, já ocupei um cargo de liderança em uma equipe extracurricular na faculdade.
+
+No estágio, apliquei conceitos de análise e regras de negócio na organização e visualização de dados de um grande banco digital, além de ter sustentado e aperfeiçoado uma solução que utilizava um agente de IA para classificação de processos jurídicos.
+
+
+# Stone
+ - Nasci no interior do estado do Rio de Janeiro e ali vivi até meus 20 anos (cidade de Bom Jardim). Por ser uma cidade pacata e pequena, acredito que isso me ajudou a ser uma pessoa calma e serena no decorrer da vida, o que me ajuda a ser uma pessoa pouco ansiosa e de fácil convívio. Depois da pandemia, continuei a minha faculdade vivendo no interior de São Paulo (São Carlos).
+- Escolhi a engenharia mecatrônica por considerar ser um curso bem amplo, onde vemos diferentes áreas da engenharia, o que nos prepara a saber aprender os conhecimentos necessários para qualquer problema que tivermos que enfrentar na vida real. Escolhi a USP por ser uma das melhores universidades do país e, especificamente a de São Carlos, por lá ser um grande polo de tecnologia, além de ser uma cidade relativamente pacata e mais em conta que a capital. Durante a escola,  por não existir lá na minha cidade um ensino voltado à FUVEST, tive que correr atrás de pessoas que tinham o mesmo objetivo, o que fortaleceu amizades e conexões e me instigaram a realmente ir atrás desse sonho.
+- Na "empresa júnior", que na verdade era uma equipe extracurricular voltada ao projeto e manufatura de um carro de fórmula elétrico, tive a oportunidade que mais agarrei. Entrei logo quando entrei na faculdade (na pandemia) e lá fui crescendo, participei ativamente do primeiro título nacional da equipe e, na volta ao presencial, ocupei o cargo de diretor do sistema mecânico. Nesse período, tivemos que enfrentar a perda de conhecimento de manufatura que se deu durante a pandemia e, apesar de não ter aprendido tantos aspectos técnicos que utilizo hoje na minha área, obtive aprendizados ainda mais valiosos: liderança, trabalho em equipe, documentação, comunicação não agressiva, resiliência, entre outras habilidades, e foi muito gratificante ver o crescimento da equipe durante a reestruturação desse tempo. 
+Além disso, fora da equipe desenvolvi uma pesquisa de iniciação científica voltada à Redes Neurais e Machine Learning, o que me ajudou a entender melhor como funciona uma pesquisa científica.
+- Fiz um estágio na área de ciência de dados em uma empresa de consultoria onde o ambiente era flexível mas bastante exigente. 
+Minhas maiores frustrações são algumas pessoas que não estavam abertas para dar e receber feedbacks, e uma carga horária que por vezes não respeitava as responsabilidades da faculdade. Sobre o primeiro tópico, tive que, às vezes, insistir para marcarmos 1:1 para compartilharmos nossas impressões um ao outro e tentei absorver ao máximo feedbacks dados entrelinhas por mensagens ou conversas a parte, anotando tudo e tentando deixar claro o que estava tentando fazer para contemplar cada ponto de crítica; Já sobre a carga horária, fui aprendendo a priorizar tarefas e assim ter uma entrega de MVP mais cedo, além disso, impor limites aos outros e, principalmente, a mim mesmo, delimitando horários de trabalho e avisando quando tinha algo urgente da faculdade.
+- Representa um ambiente para gerar valor (seja criando um produto, aperfeiçoando uma operação, oferecendo um serviço, etc.) enquanto criamos relações com pessoas. Assim, é o lugar onde nos sentimos úteis, encontramos grandes oportunidades de crescimento e conhecemos pessoas que podem marcar nossas vidas.
+- Fui um entre 10 selecionados do Campus em 2023 para cursar um certificado de estudos especiais em computação e, desde então, faço disciplinas extras focadas nessa área. Além disso, faço cursos na internet (como de PowerBI, PosgreSQL, JavaScript) com o objetivo de obter conhecimentos mais voltados ao mercado de trabalho. Por fim, atualmente faço um TCC no qual estou fazendo uma extensão para navegador com envolvimento de visão computacional.
+
+Em ordem cronológica, conquistas que me orgulho:
+- Passei na FUVEST estudando em uma cidade pequena, sem conhecer ninguém que tinha conseguido
+- Participar ativamente na conquista do primeiro campeonato em uma equipe extracurricular 
+- Como Diretor do Sistema Mecânico, contribuí para a reestruturação da equipe no período pós-pandemia
+- Estar entre os 10 selecionados de 2023 para cursar o certificado de especialização em computação pelo ICMC-USP
+- Cursar 840h extras de matérias optativas na faculdade (vontade constante de aprender)
+- Realização de Iniciação Científica elogiada por especialista na área 
+- Estágio no qual fiz dashboards elogiados por head especialista em data visualization
+
+- Quando tentei pela primeira vez ser selecionado para o certificado do ICMC-USP em 2021, não consegui. Pesquisei o que poderia fazer para ter uma chance melhor na próxima tentativa, e fiz mais matérias voltadas à computação durante 2 anos, até que fui selecionado em 2023.
+- O primeiro livro que realmente me marcou foi "A Invenção de Hugo Cabret". Ele me mostrou, quando criança, que livros podem ser tão legais quanto filmes ou desenhos, coisas que eu já gostava muito na época e que esse livro soube misturar de uma forma mágica.
+- Na época que estávamos manufaturando o carro na equipe, descobrimos que havia uma falha de projeto que foi feita antes de ocuparmos o cargo e que deixamos passar batido. Pela etapa de construção já ter começado, fomos obrigados a dar passos para trás e corrigir esses pontos do projeto antes de continuarmos a manufatura, o que não gastou tempo.
+Hoje em dia, quando assumi o cargo faria questão de instruir os gerentes a revisarem os projetos que assumiram para garantir que não haviam falhas antes de prosseguirmos para a próxima etapa.
+- A curto prazo, tenho o objetivo de conseguir implementar o meu TCC (que envolve web development, extensão para Chrome, visão computacional) até o fim do ano e me formar, além de terminar um curso que estou fazendo de 60h de web development; a médio prazo, gostaria de me especializar em engenharia de software, tendo uma visão mais ampla de DevOps do que a que eu tenho agora; a longo prazo, me enxergo em uma posição de tech leader. 
+Para atingir meus objetivos, leio livros (atualmente leio The Manager's Path e Cracking the Coding Interview), já participei de extracurriculares + estágio (o que me possibilitam evoluir nas soft skills necessárias para esses cargos); faço matérias optativas + cursos por fora (o que me ajuda nas hard skills) 
+- Gosto muito de ouvir música. Adoro fechar os olhos e ser transportado para a época da música e para aquele ambiente sonoro. Acredito que a música é uma das artes mais abstratas, onde os aspectos técnicos são muitas vezes deixados de lado ou mesmo revirados a favor de expressar algo acima. Artistas como Beatles ou David Bowie me ensinam como estamos em uma auto-reinvenção constante e que isso é o que faz a vida não ser monótona.
+- Apenas quero deixar o meu agradecimento pela oportunidade e dizer que almejo muito participar da empresa.
+
+
+# TIVIT - trainee
+Desenvolvi uma visão analítica cursando disciplinas voltadas à engenharia de software e IA, realizando uma Iniciação Científica em machine learning e um estágio no qual tive muito contato com SQL e Python voltado para aplicação de API de GenAI. Além disso, já fiz cursos de PostgreSQL, PowerBI, JavaScript e Python. 
+
+Me formo em Engenharia Mecatrônica na USP de São Carlos nesse ano, onde já ocupei um cargo de liderança em uma equipe extracurricular e cursei o certificado de Estudos Especiais em Computação no ICMC. 
+
+Atualmente, estou fazendo um projeto para o TCC que envolve Web Development e visão computacional.

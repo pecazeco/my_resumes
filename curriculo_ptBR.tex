@@ -1,0 +1,142 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\usepackage[portuguese]{babel}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{import}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\name{Pedro}{Azevedo}
+\newcommand*{\customcventry}[7][.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+\begin{document}
+\makecvtitle
+\vspace*{-16mm}
+\begin{center}
+    \textbf{ Estudante de Eng. Mecatrônica - USP }
+    
+    \textbf{ Pesquisador em IA - CNPq }
+
+    \textbf{ Consultor em Ciência de Dados  }
+\end{center}
+\begin{center}
+\begin{tabular}{c c c}
+\faMobile\enspace (22) 99702-3461 \enspace pcarriello@gmail.com & \enspace\enspace\faHome\enspace São Carlos - SP & 
+\enspace\enspace\faLinkedin\enspace \color{blue} \href{https://www.linkedin.com/in/pecazeco/}{in/pecazeco} 
+\enspace 
+\end{tabular}
+\end{center}
+
+\section{Perfil}
+Sempre muito curioso e criativo e, até o momento, especializei meus estudos principalmente em \textbf{Ciência de Dados}, tendo feito uma Iniciação Científica em \textbf{\textit{Machine Learning}} e um estágio na área. Porém, também tenho muito interesse \textbf{\textit{web/mobile development}} e \textit{JavaScript} no geral.
+
+\section{Experiência}
+
+\customcventry{09/2024 ‐ até o momento}{}{Estágio de Consultoria em Ciência de Dados no Setor Bancário}{Grupo Visagio,}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    \item[\(\hookrightarrow\)] Estágio com foco em ciência de dados na maior empresa de consultoria do Brasil
+    \item Aplicação prática de conceitos de ciência de dados em regras de negócio do \textbf{setor bancário}
+    \item Key Words: Trabalho em Equipe, SQL, PowerBI, Microsoft Office, Google Workspace, Generative AI, Visão de Negócio, Lifelong Learning
+\end{itemize}}}
+
+\customcventry{09/2023 ‐ 09/2024}{}{Pesquisador de Iniciação Científica em Redes Neurais}{CNPq,}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    \item[\(\hookrightarrow\)] Desenvolvimento de algoritmo de redes neurais para aperfeiçoar a solução numérica de elementos finitos
+    \item Key Words: Python, Redes Neurais Artificiais, Inteligência Artificial, Pesquisa Científica, MatLab
+\end{itemize}}}
+
+\vspace{1mm}
+\customcventry{12/2021 - 01/2023}{}{Diretor de engenharia mecânica}{EESC-USP Tupã,}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    \item[\(\hookrightarrow\)] \textbf{Liderei} um núcleo de \textbf{15 pessoas} com foco no projeto, manufatura e validação de um carro de Fórmula SAE Elétrico no delicado ano de retorno às atividades presenciais.
+    % \item Nosso foco na integração dos membros e gerentes fez a equipe se unir novamente
+    \item Em 2021, trabalhei ativamente na \textbf{conquista do primeiro campeonato nacional} da equipe
+    % \item Melhoria na documentação alterou totalmente a dinâmica de conservação de conhecimento da equipe
+    \item Key Words: Resolução de Problemas, Comunicação, Soluções Multidisciplinares, Pensamento Crítico, Documentação
+\end{itemize}}}
+
+\section{Formação acadêmica}
+
+\customcventry{2020 - até o momento}{}{Engenharia Mecatrônica}{EESC - USP}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    %\item[\(\hookrightarrow\)] Ser estudante de engenharia mecatrônica é cursar matérias de mecânica, computação, elétrica e eletrônica, o que me confere um grande caráter multidisciplinar.
+    % \item Melhor universidade da América Latina
+    \item Key Words: Multidisciplinariedade, Modelagem, Computação,  Resolução de Problemas, C++, Python, MatLab
+\end{itemize}}}
+
+\customcventry{2023 - até o momento}{}{Especialização em Computação}{ICMC - USP}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    \item[\(\hookrightarrow\)] Entre os 10 selecionados pelo ICMC no Campus para receber certificado em estudos especiais em computação
+    \item Key Words: Estruturas de Dados, IA, Processamento de Dados, Processamento de Imagens, Aprendizado de Máquinas, Web e Mobile Development, Python (NumPy, scikit-learn, PyTorch, etc.), JavaScript, HTML, Git/GitHub
+\end{itemize}}}
+
+% \section{Competências}
+
+% \begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+% \small
+%     \item \textbf{Programação:} Python e diversas bibliotecas (NumPy, scikit-learn, PyTorch, etc.), C++, JavaScript (intermediário), SQL, HTML (iniciante), Git/GitHub, Jupyter Notebooks, Google Colab, 
+%     \item \textbf{Apps:} Google Workspace, Microsoft Office, Notion, Trello, Chat GPT, Google Gemini, Microsoft Teams
+%     \item \textbf{Idiomas:} Inglês B1 - Score of 145 out of 150 (issued in 2017, I have improved since then)
+% \end{itemize} 
+
+\section{Projetos}
+
+\customcventry{}{}{Algoritmo de movimentação de robô autônomo}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    % \item[\(\hookrightarrow\)] Desenvolvimento de código para algoritmo de robô que precisa transitar entre dois pontos utilizando o menor caminho possível
+    \item Key Words: Algoritmos de buscas (informada, não informada, em largura, em profundidade)
+\end{itemize}}}
+
+\vspace{1mm}
+\customcventry{}{}{IA de classificação para câncer de mama}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    % \item[\(\hookrightarrow\)] Com base em uma database de mamas, desenvolvemos códigos que tentam diagnosticar câncer
+    \item Atingimos \(>90\%\) de acurácia na classificação
+    \item Key Words: mineração de dados, processamento de dados, rede neurais, K-Nearest Neighbours
+\end{itemize}}}
+
+\vspace{1mm}
+\customcventry{}{}{Criação de Data Marts importantes para um banco}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    % \item[\(\hookrightarrow\)] Com base em uma database de mamas, desenvolvemos códigos que tentam diagnosticar câncer
+    \item[\(\hookrightarrow\)] Criamos diversos data marts interconectáveis para um banco em processo de digitalização 
+    \item Tais tabelas agora são utilizadas para tomada de decisão de diversos times
+    \item Key Words: SQL, Estruturação de Dados, Validação, \textit{Banking}, Consultoria
+\end{itemize}}}  
+
+\vspace{1mm}
+\customcventry{}{}{Dashboards para diversos indicadores}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    % \item[\(\hookrightarrow\)] Com base em uma database de mamas, desenvolvemos códigos que tentam diagnosticar câncer
+    \item[\(\hookrightarrow\)] Com base nos nossos data marts criados, fiz dashboards que levantam importantes KPIs antes não bem mapeados pelo banco
+    \item Key Words: Power BI, visão de negócio, Data Visualization, Consultoria
+\end{itemize}}}  
+
+\section{Idiomas}
+
+\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\small
+    \item[\(\hookrightarrow\)] Inglês B1 - Score of 145 out of 150 (issued in 2017, I have improved since then)
+\end{itemize} 
+
+\end{document}

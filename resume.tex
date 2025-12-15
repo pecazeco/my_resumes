@@ -1,0 +1,148 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\nopagenumbers{}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{pifont}
+\name{Pedro}{Azevedo}
+\newcommand*{\customcventry}[7][.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+\begin{document}
+\makecvtitle
+\vspace*{-16mm}
+\begin{center}
+    \textbf{ Mechatronics Engineering Student }
+\end{center}
+\begin{center}
+\begin{tabular}{ c c c }
+% \faMobile\enspace (22) 99702-3461 \enspace  & \faHome\enspace pcarriello@gmail.com \\
+\faLinkedin\enspace \href{https://www.linkedin.com/in/pecazeco/}{in/pecazeco} & \enspace
+\faGithub\enspace \href{https://github.com/pecazeco}{github.com/pecazeco} & \enspace 
+\end{tabular}
+\end{center}
+
+\section{Education}
+
+\customcventry{2020 - Current}{}{Mechatronics Engineering}{University of São Paulo}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    %\item Ser estudante de engenharia mecatrônica é cursar matérias de mecânica, computação, elétrica e eletrônica, o que me confere um grande caráter multidisciplinar.
+    \item[\ding{226}] Adaptivity, Multidisciplinary, Modeling, Computation,  Problem Solving, Python
+\end{itemize}}}
+
+\vspace{2mm}
+\customcventry{2023 - 2024}{}{Emphasis on Computing}{Institute of Mathematics and Computer Sciences - USP}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    \item One of the 10 selected from the Campus to carry out special studies in computing and to receive a certificate
+    \item[\ding{226}] \textbf{Data Structures} (hash tables, trees, linked lists, queue, stack, etc.), AI, Data Processing, Image Processing, \textbf{Machine Learning}, \textbf{Python} (NumPy, scikit-learn, PyTorch, etc.), \textbf{JavaScript}, HTML, Git/GitHub, Object-Oriented Programming
+\end{itemize}}}
+
+\section{Professional Experience}
+
+\customcventry{09/2024 ‐ 06/2025}{}{Data Science Consultant - Internship}{Grupo Visagio}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}] 
+    \item Application of data science concepts in the business rules of a large bank that was undergoing digitalization. 
+    \item Organization of attraction events focused on university students
+    % \item Organization of important \textbf{data warehouses} of the company 
+    % \item Visualization of important indicators through \textbf{dashboards}.
+    % \item Support and improvement of a automated legal process \textbf{classification system using GenAI}
+    \item[\ding{226}] \textbf{Python}, \textbf{SQL}, PowerBI, Microsoft Office, Google Workspace, GenAI, Lifelong Learning, project-driven company
+\end{itemize}}}
+
+\section{Academic Experience}
+
+\customcventry{12/2021 - 01/2023}{}{Mechanics Engineering Director - Voluntary}{EESC-USP Tupã}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    \item Coordination and leadership of a core of 10 people in a team focused on the design, manufacture, and validation of a Formula SAE Electric car. 
+    \item Active work in winning the team's \textbf{first national championship} in 2021
+    % \item Improvement in documentation changed the team's knowledge conservation from then on
+    \item[\ding{226}] Problem Solving, People Management, Project Management, Communication, Leadership, Documentation
+\end{itemize}}}
+
+\section{Projects}
+
+\customcventry{07/2024 - On-going}{}{Adultization Identifier - Extension for Instagram}{Undergraduate Thesis - USP}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    \item A Chrome extension to identify and blur Instagram posts with sexualized children content. 
+    \item Web Development +  Google Generative AI API
+    \item[\ding{226}] JavaScript (\textbf{Manifest V3}, Node.js)
+\end{itemize}}}
+
+\vspace{2mm}
+\customcventry{05/2025 - 06/2025}{}{Automated legal process classification system}{Grupo Visagio}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}] 
+    \item Suport and improvement of the on-going system, adding new features and keeping a \(>90\%\) classification accuracy
+    \item[\ding{226}] GenAI, Python (\textbf{LangChain}, OpenAI API, Gemini API, etc.)
+\end{itemize}}}
+
+\vspace{2mm}
+\customcventry{09/2024 - 04/2025}{}{Organization of important data warehouses of a real bank}{Grupo Visagio}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    \item Development of interconnected data marts of credit and debit cards using SQL
+    \item Visualization of important indicators through \textbf{dashboards}
+    \item[\ding{226}] \textbf{BigQuery SQL}, PowerBI
+\end{itemize}}}
+
+\vspace{2mm}
+\customcventry{09/2023 ‐ 09/2024}{}{Finite Elements optimization through Neural Networks method}{CNPq}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    \item Scientific Initiation Research 
+    \item[\ding{226}] Python, \textbf{Artificial Neural Networks}, Artificial Inteligence, Scientific Research, MatLab, Optimization
+\end{itemize}}}
+
+% \vspace{2mm}
+% \customcventry{10/2023}{}{Movement algorithm of an autonomous robot}{ICMC-USP}{}{
+% {\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+%     % \item Development of code to compare different algorithms for a robot that needs to move between two points using the shortest path
+%     \item[\ding{226}] Searching Algorithms (informed, uninformed, BF, DFS)
+% \end{itemize}}}
+
+% \vspace{2mm}
+% \customcventry{12/2023}{}{Cancer breast AI classifier}{ICMC-USP}{}{
+% {\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+%     % \item Studies and implementation of \textbf{Data Mining} and \textbf{\(>90\%\) classification accuracy} achieved. 
+%     % \item \(>90\%\) classification accuracy achieved in the dataset
+%     \item[\ding{226}] Data Mining, Data Processing, Neural Network, K-Nearest Neighbours
+% \end{itemize}}}
+
+\section{Courses and Certificates}
+\customcventry{10/2025 - 12/2025}{}{Forward Learning Program}{McKinsey}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    \item[\ding{226}] Adaptability, Problem Solving, Communicating for Impact 
+\end{itemize}}}
+\customcventry{2025 - On-going}{}{The Complete Full-Stack Web Development Bootcamp}{Udemy}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    % \item 61 hours of content with a lot of practical exercises
+    \item[\ding{226}] JavaScript (\textbf{Node.js}, \textbf{React.js}, \textbf{jQuery}, etc.), CSS, HTML, SQL, UX 
+\end{itemize}}}
+% \customcventry{03/2024}{}{The Complete SQL Bootcamp: Go from Zero to Hero}{Udemy}{}{
+% {\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+%     \item The fundamentals of \textbf{PostgreSQL}.
+% \end{itemize}}
+% }
+\customcventry{12/2017}{}{English B1}{Cambridge}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+    \item Score of 145 out of 150 
+\end{itemize}}
+}
+
+\end{document}
