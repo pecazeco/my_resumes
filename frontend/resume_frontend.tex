@@ -1,0 +1,142 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% --- ESTILO E COR ---
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% --- PACOTES ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.9]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{pifont}
+
+
+% Ajuste da largura da coluna de datas
+\settowidth{\hintscolumnwidth}{00/00--00/00}
+\nopagenumbers{}
+
+% --- NOME COM COR FORÇADA ---
+% Adicionado \textcolor{color1} para garantir que o nome fique azul
+% mesmo mudando o tamanho da fonte manualmente.
+\name{
+    \fontsize{24}{27}\selectfont\mdseries\textcolor{color1}{Pedro}
+    }{
+    \fontsize{24}{27}\selectfont\mdseries\textcolor{color1}{Azevedo}
+}
+
+\title{Front-end Web Developer, Jr.}                      
+\phone[mobile]{+55~(22)~99702-3461}
+\email{pcarriello@gmail.com}
+\social[linkedin]{pecazeco}
+\social[github]{pecazeco}
+
+\photo[45pt][1pt]{../fotos/foto} 
+
+\begin{document}
+\makecvtitle
+\vspace*{-10mm}
+
+\section{Education}
+
+\cventry{2020--2025}{Mechatronics Engineering}{University of São Paulo}{São Carlos - SP}{}{
+    {\begin{itemize}
+        \item Adaptability, Multidisciplinary, Modeling, Computation, Problem Solving, Python
+    \end{itemize}}
+}
+\cventry{2023--2025}{Special Studies on Computing}{ICMC/USP}{São Carlos - SP}{}{
+    {\begin{itemize}
+        \item One of the 10 selected from the Campus
+        \item \textbf{Data Structures}, AI, Data Processing, Image Processing, \textbf{Machine Learning}, \textbf{Python} (NumPy, scikit-learn, PyTorch, etc.), \textbf{JavaScript}, HTML, Git/GitHub, Object-Oriented Programming
+    \end{itemize}}
+}
+
+\section{Courses and Certificates}
+
+\cventry{2025-2026}{Angular - The Complete Guide (2025 Edition)}{Udemy}{56-hour course}{}{
+    {{\begin{itemize}
+    \item \textbf{TypeScript}, Angular, RxJS, Responsive Web Design
+\end{itemize}}}
+}
+
+\cventry{2025}{The Complete Full-Stack Web Development Bootcamp}{Udemy}{62-hour course}{}{
+    {{\begin{itemize}
+    \item JavaScript (\textbf{Node.js}, \textbf{React.js}, \textbf{jQuery}, etc.), CSS, HTML, SQL, UX 
+\end{itemize}}}
+}
+
+\cventry{12/2025}{Forward Learning Program}{McKinsey}{18-hour course}{}{
+    {{\begin{itemize}
+    % \item Selected to participate
+    % \item The biggest and most traditional consulting firm in the world
+    \item Adaptability, Problem Solving, Communicating for Impact 
+\end{itemize}}}
+}
+
+\cvitemwithcomment{2017}{\textbf{English B1}, \textit{Cambridge}}{Score of 145 out of 150}
+
+\section{Experience}
+
+\subsection{Professional}
+
+\cventry{09/24--07/25}{Data Science Consultant Intern}{Grupo Visagio}{}{}{
+    {\begin{itemize}
+        \item Application of data science concepts to the business rules of a large bank that was undergoing digitalization. 
+        \item Organization of attraction events focused on university students
+        \item \textbf{Python}, \textbf{SQL}, PowerBI, Microsoft Office, Google Workspace, GenAI, Lifelong Learning, project-driven company
+    \end{itemize}}
+}
+
+\subsection{Academic}
+
+\cventry{12/21--01/23}{Mechanical Engineering Director - Voluntary}{EESC-USP Tupã}{}{}{
+    {\begin{itemize}
+    \item Coordination and leadership of a 10-person core team in a team focused on the design, manufacture, and validation of a Formula SAE Electric car. 
+    \item Active work in winning the team's \textbf{first national championship} in 2021
+    % \item Problem Solving, People Management, Project Management, Communication, Leadership, Documentation
+    \end{itemize}}
+}
+
+\section{Projects}
+
+\cventry{07/25--12/25}{\href{https://github.com/pecazeco/InstaChildGuard}{{\scriptsize\faLink}~Adultization Identifier - Browser Extension}
+}{Undergraduate Thesis - USP}{}{Grade of 10,0/10,0}{
+    {\begin{itemize}
+        \item A Chrome extension to identify and blur Instagram posts with sexualized content involving children. 
+        \item Web Development +  Generative AI APIs
+        \item \textbf{JavaScript} (Manifest V3, Node.js), Python 
+    \end{itemize}}
+}
+
+\cventry{07/25--12/25}{\href{https://github.com/code-charity/youtube}{{\scriptsize\faLink}~Contributions for \textit{ImprovedTube}}}{GitHub}{}{+400,000 users}{
+    {\begin{itemize}
+        \item Use of Git and \textbf{GitHub} to implement new features and bug fixes to a popular YouTube extension
+    \end{itemize}}
+}
+
+\cventry{05/25--06/25}{Automated legal process classification system}{Grupo Visagio}{}{}{
+    {\begin{itemize}
+        \item Support and improvement of the on-going system, adding new features and maintaining a \(>90\%\) accuracy
+        \item \textbf{GenAI}, Python (LangChain, OpenAI API, Gemini API, etc.)
+    \end{itemize}}
+}
+
+\cventry{09/24--04/25}{Organization of important data warehouses of a major bank}{Grupo Visagio}{}{}{
+    {\begin{itemize}
+        \item Development of interconnected data marts of credit and debit cards using SQL and visualization of KPIs through dashboards
+        % \item Visualization of important indicators through dashboards
+    \end{itemize}}
+}
+
+\cventry{09/23--09/24}{Finite Elements optimization with Neural Networks - Scientific Initiation}{USP/CNPq}{}{}{
+    {\begin{itemize}
+        % \item Scientific Initiation Research 
+        \item Python, \textbf{Artificial Neural Networks}, Artificial Intelligence, Scientific Research
+    \end{itemize}}
+}
+
+\end{document}
