@@ -1,0 +1,111 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% --- ESTILO E COR ---
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% --- PACOTES ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.9]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{pifont}
+
+% Ajuste da largura da coluna de datas
+\settowidth{\hintscolumnwidth}{00/00--00/00}
+\nopagenumbers{}
+
+% --- NOME COM COR FORÇADA ---
+\name{
+    \fontsize{24}{27}\selectfont\mdseries\textcolor{color1}{Pedro}
+    }{
+    \fontsize{24}{27}\selectfont\mdseries\textcolor{color1}{Azevedo}
+}
+
+\title{Engenheiro de Software Júnior}                      
+\phone[mobile]{+55~(22)~99702-3461}
+\email{pcarriello@gmail.com}
+\social[linkedin]{pecazeco}
+\social[github]{pecazeco}
+
+\photo[45pt][1pt]{../fotos/foto} 
+
+\begin{document}
+\makecvtitle
+\vspace*{-13mm}
+
+\section{Educação}
+
+\cventry{2020--2025}{Engenharia Mecatrônica}{Universidade de São Paulo}{São Carlos - SP}{}{
+    {\begin{itemize}
+        \item Engenharia Multidisciplinar, Modelagem Computacional, Sistemas e Controle, Resolução de Problemas, Python
+    \end{itemize}}
+}
+\cventry{2023--2025}{Estudos Especiais em Computação}{ICMC/USP}{São Carlos - SP}{}{
+    {\begin{itemize}
+        \item Um dos 10 estudantes selecionados em todo o campus
+    \end{itemize}}
+}
+
+\section{Experiência}
+
+\subsection{Profissional}
+
+\cventry{02/26--Presente}{Analista de Software Jr.}{LUZ Soluções Financeiras}{São Carlos - SP}{}{
+    {\begin{itemize}
+        \item \textbf{Desenvolvedor principal} de app regulatório para \textbf{calcular e reportar métricas} do \textit{Banco Central do Brasil} (Bacen), entregando uma das \textbf{primeiras soluções do país} e processando \textbf{milhões de reais}, com \textbf{reconhecimento de destaque} enviado para toda a empresa.
+        \item Desenvolveu uma \textbf{versão desktop ainda mais robusta}, integrada ao sistema consolidado de 20 anos da empresa, atuando também na criação de outras aplicações web.
+        \item Implementação de \textbf{CI/CD} no GitLab com \textbf{deploy} automático via \textbf{Docker}, \textbf{autenticação} via Amazon Cognito, e banco Oracle.
+        \item \textbf{.NET}, React, Docker, GitLab CI, Oracle SQL, RabbitMQ, Pascal, REST APIs, OAuth 2.0 (PKCE)
+    \end{itemize}}
+}
+
+\cventry{09/24--07/25}{Estagiário de Consultoria em Data Science}{Grupo Visagio}{São Paulo - SP}{}{
+    {\begin{itemize}
+        \item Aprimoramento de pipeline de classificação de documentos jurídicos para grande banco, com \textbf{>90\% de acurácia} (GenAI).
+        \item Integração de data marts de cartões via SQL e desenvolvimento de dashboards para visualização de KPIs.
+        \item \textbf{Python}, SQL, Power BI, APIs de GenAI (OpenAI, Gemini), Data Marts
+    \end{itemize}}
+}
+
+\subsection{Acadêmica}
+
+\cventry{12/21--01/23}{Diretor de Engenharia Mecânica (Voluntário)}{EESC-USP Tupã}{São Carlos - SP}{}{
+    {\begin{itemize}
+    \item Liderança de 10 engenheiros no projeto, manufatura e validação de um carro Fórmula SAE Elétrico.
+    \item Contribuição na conquista do \textbf{primeiro campeonato nacional} da equipe em 2021.
+    \end{itemize}}
+}
+
+\section{Projetos \& Pesquisa}
+
+\cventry{07/25--12/25}{\href{https://github.com/pecazeco/InstaChildGuard}{{\scriptsize\faLink}~InstaChildGuard -- Extensão de Proteção Infantil}}{Trabalho de Graduação - USP}{}{Nota: 10,0/10,0}{
+    {\begin{itemize}
+        \item Desenvolvimento de extensão no Chrome para identificar e desfocar posts com conteúdo sexualizado infantil.
+    \end{itemize}}
+}
+
+\cventry{07/25--12/25}{\href{https://github.com/code-charity/youtube}{{\scriptsize\faLink}~Contribuições Open Source no \textit{ImprovedTube}}}{GitHub}{}{+400.000 usuários}{
+    {\begin{itemize}
+        \item Implementação de novas funcionalidades e correção de bugs no GitHub para extensão com +400k usuários ativos.
+    \end{itemize}}
+}
+
+\cventry{09/23--09/24}{\href{https://www.linkedin.com/in/pecazeco/overlay/Project/1245750859/treasury/?profileId=ACoAAB0DOEEB_8QK5O0kMffFFd9R2OcO3bHhrBg}{{\scriptsize\faLink}~Otimização de Elementos Finitos com Redes Neurais}}{Iniciação Científica - USP/CNPq}{}{}{
+    {\begin{itemize}
+        \item Aplicação de Redes Neurais Artificiais (RNA) em Python e MATLAB para otimizar simulações de Elementos Finitos.
+    \end{itemize}}
+}
+
+\section{Habilidades \& Certificações}
+\cvitem{Linguagens}{C\# (1+ ano), TypeScript (1+ ano), Python (5+ anos), JavaScript (5+ anos), SQL (4+ anos), C/C++, Pascal}
+\cvitem{Frameworks \& Tools}{.NET, Docker, GitLab CI/CD, Git, Claude Code, React, RabbitMQ, OAuth 2.0, REST APIs}
+\cvitem{Databases}{Oracle SQL, PostgreSQL, BigQuery, SQLite}
+\cvitem{Certificações}{\href{https://www.credly.com/badges/47f2b7ce-d33f-4012-98ee-a4a63b8792d4/linked_in_profile}{{\scriptsize\faLink}~McKinsey Forward Program} (Adaptabilidade, Resolução de Problemas e Comunicação, 12/2025)}
+\cvitem{}{\href{https://cert.efset.org/en/EMrzv5}{{\scriptsize\faLink}~EF SET Inglês C1 Avançado} (12/2025)}
+
+\end{document}
